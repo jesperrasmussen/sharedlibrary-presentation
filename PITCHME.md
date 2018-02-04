@@ -6,20 +6,12 @@
 
 ---
 
-@title[PITCHME.md]
-
-#### Something, something dark side
-<br>
-<span class="aside">.</span>
-
----
-
 @title[Features]
 
 ## <span class="gold">Features</span>
 
 #### Reusable pipeline functions
-#### Simple Groovy 
+#### Simple Groovy functions
 #### Multiple scopes (Global, group, project)
 
 ---
