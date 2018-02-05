@@ -33,4 +33,8 @@ $ cat Jenkinsfile | wc -l
 
 ---
 
-### Demo
+### Code
+
+Global shared library: [https://github.com/tv2/devops-pipeline-gradle-global-library]()
+
+BE shared library: [https://github.com/tv2/play-be-pipeline-library]()
