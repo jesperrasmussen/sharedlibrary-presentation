@@ -35,6 +35,6 @@ $ cat Jenkinsfile | wc -l
 
 ### Code
 
-Global shared library: [https://github.com/tv2/devops-pipeline-gradle-global-library]()
+Global shared library: [https://github.com/tv2/devops-pipeline-gradle-global-library](https://github.com/tv2/devops-pipeline-gradle-global-library)
 
-BE shared library: [https://github.com/tv2/play-be-pipeline-library]()
+BE shared library: [https://github.com/tv2/play-be-pipeline-library](https://github.com/tv2/play-be-pipeline-library)
