@@ -2,7 +2,7 @@
 
 # Jenkins Shared Libraries
 
-#### DRY-mode for pipelines
+#### DRY for pipelines
 
 ---
 
@@ -13,26 +13,24 @@
 #### Reusable pipeline functions
 #### Simple Groovy functions
 #### Multiple scopes (Global, group, project)
+#### Uses method overriding
 
 ---
 
-@title[Before]
+@title[Before & now]
 
 ### <span class="gold">Before</span>
-
 ```shell
-$ git add PITCHME.md
-$ git commit -m "New slideshow content."
-$ git push
-
-Done!
+$ cat Jenkinsfile.old | wc -l
+210
 ```
 
-@[1](Add your PITCHME.md slideshow content file.)
-@[2](Commit PITCHME.md to your local repo.)
-@[3](Push PITCHME.md to your public repo and you're done!)
-@[5](Supports GitHub, GitLab, Bitbucket, GitBucket, Gitea, and Gogs.)
+### <span class="gold">Now</span>
+```shell
+$ cat Jenkinsfile | wc -l
+60
+```
 
 ---
 
-### Go do!
+### Demo
